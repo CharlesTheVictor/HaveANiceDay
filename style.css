@@ -1,0 +1,46 @@
+p {
+  font-family: 'Arial';
+  font-size: 150px;
+  text-align: center;
+  color: white;
+}
+
+*{
+  cursor: url('smile.png'), default;
+}
+
+.textblock {
+  height: auto;
+  width: 80vh;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: auto;
+  font-weight: normal;
+}
+
+body{
+  background: linear-gradient(270deg, #ff0000, #c200cc, #0054ff, #00a72b);
+  background-size: 800% 800%;
+  -webkit-animation: GradientAnimation 30s ease infinite;
+  -moz-animation: GradientAnimation 30s ease infinite;
+  animation: GradientAnimation 30s ease infinite;
+}
+
+
+@-webkit-keyframes GradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes GradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes GradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
