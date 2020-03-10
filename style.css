@@ -9,14 +9,27 @@ p {
   cursor: url('smile.png'), default;
 }
 
+.Feedback {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  font-family: 'Arial';
+  z-index: 1;
+  width: auto;
+  color: white;
+  font-size: 50px;
+}
+
 .textblock {
   height: auto;
-  width: 80vh;
+  display: block;
+  width: 650px;
   position: absolute;
   margin: auto;
   left: 0;
   right: 0;
-  top: auto;
+  top: 0;
+  bottom: 0;
   font-weight: normal;
 }
 
