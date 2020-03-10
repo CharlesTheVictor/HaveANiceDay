@@ -23,7 +23,7 @@ p {
 .textblock {
   height: auto;
   display: block;
-  width: 80vh;
+  width: auto;
   position: absolute;
   margin: auto;
   left: 0;
