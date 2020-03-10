@@ -1,5 +1,5 @@
 p {
-  font-family: 'Arial';
+  font-family: 'Helvetica';
   font-size: 150px;
   text-align: center;
   color: white;
@@ -13,7 +13,7 @@ p {
   position: fixed;
   bottom: 15px;
   right: 25px;
-  font-family: 'Arial';
+  font-family: 'Helvetica';
   z-index: 1;
   width: auto;
   color: white;
@@ -23,7 +23,7 @@ p {
 .textblock {
   height: auto;
   display: block;
-  width: 650px;
+  width: 80vh;
   position: absolute;
   margin: auto;
   left: 0;
